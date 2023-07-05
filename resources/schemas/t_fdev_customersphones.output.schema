@@ -1,0 +1,153 @@
+{
+  "namespace": "FDEV",
+  "name": "t_fdev_customersphones",
+  "doc": "Tabla de customer phones",
+  "database": "master",
+  "type": "record",
+  "fields": [{
+    "name": "city_name",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(33)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "street_name",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(53)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "credit_card_number",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(22)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "last_name",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(20)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "first_name",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(20)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "age",
+    "type": ["null", "int"],
+    "logicalFormat": "NUMERIC SHORT",
+    "deleted": false,
+    "metadata": false,
+    "default": null
+  }, {
+    "name": "brand",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(35)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "model",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(35)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "nfc",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(3)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "country_code",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(2)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "prime",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(3)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "customer_vip",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(3)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "taxes",
+    "type": ["decimal(9,2)", "null"],
+    "logicalFormat": "DECIMAL(9,2)",
+    "deleted": false,
+    "metadata": false,
+    "default": "",
+    "format": "9,2",
+    "locale": "mx"
+  }, {
+    "name": "price_product",
+    "type": ["decimal(9,2)", "null"],
+    "logicalFormat": "DECIMAL(26,6)",
+    "deleted": false,
+    "metadata": false,
+    "default": "",
+    "format": "9,2",
+    "locale": "mx"
+  }, {
+    "name": "discount_amount",
+    "type": ["decimal(9,2)", "null"],
+    "logicalFormat": "DECIMAL(9,2)",
+    "deleted": false,
+    "metadata": false,
+    "default": "",
+    "format": "9,2",
+    "locale": "mx"
+  }, {
+    "name": "extra_discount",
+    "type": ["decimal(9,2)", "null"],
+    "logicalFormat": "DECIMAL(9,2)",
+    "deleted": false,
+    "metadata": false,
+    "default": "",
+    "format": "9,2",
+    "locale": "mx"
+  }, {
+    "name": "final_price",
+    "type": ["decimal(9,2)", "null"],
+    "logicalFormat": "DECIMAL(9,2)",
+    "deleted": false,
+    "metadata": false,
+    "default": "",
+    "format": "9,2",
+    "locale": "mx"
+  }, {
+    "name": "brands_top",
+    "type": ["null", "int"],
+    "logicalFormat": "NUMERIC SHORT",
+    "deleted": false,
+    "metadata": false,
+    "default": null
+  }, {
+    "name": "jwk_date",
+    "type": ["date", "null"],
+    "logicalFormat": "DATE",
+    "deleted": false,
+    "metadata": false,
+    "default": "",
+    "format": "yyyy-MM-dd",
+    "locale": "mx"
+  }]
+}

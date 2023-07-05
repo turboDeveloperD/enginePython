@@ -1,0 +1,31 @@
+{
+    "namespace" : "",
+    "name" : "clients_table",
+    "doc" : "",
+    "database" : "",
+    "fields" : [ {
+        "name" : "cod_client",
+        "type" : "string",
+        "default" : ""
+    }, {
+        "name" : "nombre",
+        "type" : "string",
+        "default" : ""
+    }, {
+        "name" : "edad",
+        "type" : "int",
+        "default" : "0"
+    }, {
+        "name" : "provincia",
+        "type" : "string",
+        "default" : ""
+    }, {
+        "name" : "cod_postal",
+        "type" : "int",
+        "default" : "00000"
+    }, {
+        "name" : "vip",
+        "type" : "boolean",
+        "default" : "false"
+    }]
+}

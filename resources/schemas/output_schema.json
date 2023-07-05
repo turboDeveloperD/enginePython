@@ -1,0 +1,60 @@
+{
+    "namespace" : "",
+    "name" : "output_table",
+    "doc" : "",
+    "database" : "",
+    "type" : "record",
+    "fields" : [ {
+        "name" : "cod_producto",
+        "type" : "string",
+        "default" : ""
+    },{
+        "name" : "cod_iuc",
+        "type" : "string",
+        "default" : ""
+    }, {
+        "name" : "cod_titular",
+        "type" : "string",
+        "default" : ""
+    },  {
+        "name" : "fec_alta",
+        "type" : "date",
+        "default" : ""
+    }, {
+        "name" : "activo",
+        "type" : "boolean",
+        "default" : "false"
+    },{
+        "name" : "cod_client",
+        "type" : "string",
+        "default" : ""
+    }, {
+        "name" : "nombre",
+        "type" : "string",
+        "default" : ""
+    }, {
+        "name" : "edad",
+        "type" : "int",
+        "default" : "0"
+    }, {
+        "name" : "provincia",
+        "type" : "string",
+        "default" : ""
+    }, {
+        "name" : "cod_postal",
+        "type" : "int",
+        "default" : "00000"
+    }, {
+        "name" : "vip",
+        "type" : "boolean",
+        "default" : "false"
+    }, {
+        "name" : "desc_producto",
+        "type" : "string",
+        "default" : ""
+    }, {
+        "name" : "hash",
+        "type" : "string",
+        "default" : ""
+    }]
+}

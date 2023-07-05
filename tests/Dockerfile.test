@@ -1,0 +1,8 @@
+# Dockerfile for testing purposes.
+# An image from this Dockerfile will be built during CI pipeline execution,
+# so tests and other QA stages will be evaluated within a deterministic context
+
+FROM artifactory.globaldevtools.bbva.com/gl-datio-spark-docker-local/datio-spark/engine/global/fjwam/dataproc-pyspark:1.7.2-3.1
+
+RUN sed -i '/source \/executor.sh/d' ${SPARK_HOME}/bin/spark-class
+RUN sed -i '/executor_main/d' ${SPARK_HOME}/bin/spark-class

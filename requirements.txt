@@ -1,0 +1,8 @@
+dataproc_sdk==0.3.10.3.1
+cryptography==3.4.8
+
+pytest~=7.3.2
+pyspark~=3.1.1
+py4j==0.10.9.7
+behave~=1.2.6
+setuptools~=65.5.1

@@ -1,0 +1,28 @@
+{
+    "namespace" : "",
+    "name" : "contracts_table",
+    "doc" : "",
+    "database" : "",
+    "type" : "record",
+    "fields" : [ {
+        "name" : "cod_iuc",
+        "type" : "string",
+        "default" : ""
+    }, {
+        "name" : "cod_titular",
+        "type" : "string",
+        "default" : ""
+    }, {
+        "name" : "cod_producto",
+        "type" : "string",
+        "default" : ""
+    }, {
+        "name" : "fec_alta",
+        "type" : "date",
+        "default" : ""
+    }, {
+        "name" : "activo",
+        "type" : "boolean",
+        "default" : "false"
+    }]
+}

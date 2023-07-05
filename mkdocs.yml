@@ -1,0 +1,13 @@
+site_name: exampleenginepythonqiyhbwvw
+nav:
+    - index.md
+theme:
+    name: material
+    features:
+        - instant
+markdown_extensions:
+    - codehilite
+plugins:
+    - search
+    - mkdocstrings
+

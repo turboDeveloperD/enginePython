@@ -1,0 +1,6 @@
+[flake8]
+extend-ignore = E501, E203, E402
+exclude = build, dist, .git, .tox, tests, venv, .venv, .pyenv, docs, examples, .poetry, .pip-installation
+max-line-length = 119
+per-file-ignores =
+  exampleenginepythonqiyhbwvw/entrypoint.py:E402, E501

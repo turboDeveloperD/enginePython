@@ -1,0 +1,8 @@
+cod_client,nombre,edad,provincia,cod_postal,vip
+00001,Julen,31,Valencia,23700,false
+00002,Javier,58,Jaén,08728,true
+00003,Carlos,48,Sevilla,28757,true
+00004,Maria,38,Gerona,18393,true
+00005,Ernesto,22,Cáceres,13950,false
+00006,Luisa,43,Murcia,23940,true
+00007,Raul,51,Álava,09030,false
